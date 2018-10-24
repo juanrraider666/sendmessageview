@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+
+
+    <item
+        android:id="@+id/volver"
+        android:icon="@drawable/ic_reply_black_24dp"
+        android:title="@string/volver"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+
+
+        />
+
+    <item
+        android:id="@+id/llamar"
+        android:icon="@drawable/ic_phone_black_24dp"
+        android:title="@string/llamar"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+
+
+        />
+
+    <item
+        android:id="@+id/estados"
+        android:title="estados"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+
+
+        />
+</menu>
